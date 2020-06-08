@@ -1,0 +1,11 @@
+function OnClicked(pl)
+	game.ServerStorage.Transition:clone().Parent = pl.PlayerGui	
+	
+	pl.PlayerGui.ClubCB.Value = true
+	pl.PlayerGui.Town.Value = false
+	
+	wait(.5)
+	pl.Character:MoveTo(script.Parent.Parent.TELEPARTB.Position)
+end
+
+script.Parent.ClickDetector.MouseClick:connect(OnClicked)

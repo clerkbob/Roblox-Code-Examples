@@ -1,0 +1,132 @@
+while true do
+	
+	wait(8)
+	local rand = math.random(1,4) 
+	if rand == 1 then --Red
+	game.Workspace.CJLaugh:play()
+	local found = game.Workspace:FindFirstChild("CJColorWarning(Black)")
+	if found then	
+	found:remove()
+	end	
+	local Red = game.Lighting:FindFirstChild("CJColorWarning(Red)"):clone()
+	Red.Parent = game.Workspace
+	wait (8)
+	game.Workspace.CJLaugh:stop()
+	game.Workspace.CJRun:play()
+	wait(2)
+	game.Workspace.CJTPlatformUpDown:play()
+	game.Workspace.Blue.CJDown.Disabled = false
+	game.Workspace.Green.CJDown.Disabled = false
+	game.Workspace.Yellow.CJDown.Disabled = false
+	game.Workspace.CJMove.CJDown.Disabled = false
+	wait(5)
+	game.Workspace.CJTPlatformUpDown:play()
+	game.Workspace.Blue.CJUp.Disabled = false
+	game.Workspace.Green.CJUp.Disabled = false
+	game.Workspace.Yellow.CJUp.Disabled = false
+	game.Workspace.CJMove.CJUp.Disabled = false
+	local found = game.Workspace:FindFirstChild("CJColorWarning(Red)")
+	if found then	
+	found:remove()
+	end	
+	local Black = game.Lighting:FindFirstChild("CJColorWarning(Black)"):clone()
+	Black.Parent = game.Workspace
+	
+	
+	elseif rand == 2 then --Blue 
+		game.Workspace.CJLaugh:play()
+		local found = game.Workspace:FindFirstChild("CJColorWarning(Black)")
+	if found then	
+	found:remove()
+	end
+	local Blue = game.Lighting:FindFirstChild("CJColorWarning(Blue)"):clone()
+	Blue.Parent = game.Workspace
+	wait (8)
+	game.Workspace.CJLaugh:stop()
+	game.Workspace.CJRun:play()
+	
+	wait(2)
+	
+	game.Workspace.CJTPlatformUpDown:play()
+	game.Workspace.Red.CJDown.Disabled = false
+	game.Workspace.Green.CJDown.Disabled = false
+	game.Workspace.Yellow.CJDown.Disabled = false
+	game.Workspace.CJMove.CJDown.Disabled = false
+	wait(5)
+	game.Workspace.CJTPlatformUpDown:play()
+	game.Workspace.Red.CJUp.Disabled = false
+	game.Workspace.Green.CJUp.Disabled = false
+	game.Workspace.Yellow.CJUp.Disabled = false
+	game.Workspace.CJMove.CJUp.Disabled = false
+	local found = game.Workspace:FindFirstChild("CJColorWarning(Blue)")
+	if found then	
+	found:remove()
+	end	
+	local Black = game.Lighting:FindFirstChild("CJColorWarning(Black)"):clone()
+	Black.Parent = game.Workspace
+	
+	
+	elseif rand == 3 then --Green
+		game.Workspace.CJLaugh:play()
+		local found = game.Workspace:FindFirstChild("CJColorWarning(Black)")
+	if found then	
+	found:remove()
+	end
+	local Green = game.Lighting:FindFirstChild("CJColorWarning(Green)"):clone()
+	Green.Parent = game.Workspace
+	wait (8)
+	game.Workspace.CJLaugh:stop()
+	game.Workspace.CJRun:play()
+	wait(2)
+	game.Workspace.CJTPlatformUpDown:play()
+	game.Workspace.Blue.CJDown.Disabled = false
+	game.Workspace.Red.CJDown.Disabled = false
+	game.Workspace.Yellow.CJDown.Disabled = false
+	game.Workspace.CJMove.CJDown.Disabled = false
+	wait(5)
+	game.Workspace.CJTPlatformUpDown:play()
+	game.Workspace.Blue.CJUp.Disabled = false
+	game.Workspace.Red.CJUp.Disabled = false
+	game.Workspace.Yellow.CJUp.Disabled = false
+	game.Workspace.CJMove.CJUp.Disabled = false
+	local found = game.Workspace:FindFirstChild("CJColorWarning(Green)")
+	if found then	
+	found:remove()
+	end	
+	local Black = game.Lighting:FindFirstChild("CJColorWarning(Black)"):clone()
+	Black.Parent = game.Workspace
+	
+	
+	elseif rand == 4 then --Yellow
+	game.Workspace.CJLaugh:play()
+	local found = game.Workspace:FindFirstChild("CJColorWarning(Black)")
+	if found then	
+	found:remove()
+	end
+	local Yellow = game.Lighting:FindFirstChild("CJColorWarning(Yellow)"):clone()
+	Yellow.Parent = game.Workspace
+	wait (8)
+	game.Workspace.CJLaugh:stop()
+	game.Workspace.CJRun:play()
+	wait(2)
+	game.Workspace.CJTPlatformUpDown:play()
+	game.Workspace.Blue.CJDown.Disabled = false
+	game.Workspace.Green.CJDown.Disabled = false
+	game.Workspace.Red.CJDown.Disabled = false
+	game.Workspace.CJMove.CJDown.Disabled = false
+	wait(5)
+	game.Workspace.CJTPlatformUpDown:play()
+	game.Workspace.Blue.CJUp.Disabled = false
+	game.Workspace.Green.CJUp.Disabled = false
+	game.Workspace.Red.CJUp.Disabled = false
+	game.Workspace.CJMove.CJUp.Disabled = false
+	local found = game.Workspace:FindFirstChild("CJColorWarning(Yellow)")
+	if found then	
+	found:remove()
+	end	
+	local Black = game.Lighting:FindFirstChild("CJColorWarning(Black)"):clone()
+	Black.Parent = game.Workspace
+	
+	
+end
+	end
